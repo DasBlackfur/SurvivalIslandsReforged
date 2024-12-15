@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "gay.blackfur.survivalisland.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "refmap": "survivalisland.refmap.json",
+  "mixins": [
+    "LegacyNoiseDensityFunctionVisitorMixin"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
